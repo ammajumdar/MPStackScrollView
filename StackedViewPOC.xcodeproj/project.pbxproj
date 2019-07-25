@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30079DCD22E8C2F00058AE09 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30079DCC22E8C2F00058AE09 /* ViewModel.swift */; };
-		30079DCF22E971520058AE09 /* StackCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30079DCE22E971520058AE09 /* StackCellBase.swift */; };
+		30079DCF22E971520058AE09 /* MPStackCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30079DCE22E971520058AE09 /* MPStackCellBase.swift */; };
 		30079DD122E971860058AE09 /* ButtonStackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30079DD022E971860058AE09 /* ButtonStackCell.swift */; };
 		30079DD322E973630058AE09 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30079DD222E973630058AE09 /* DetailsViewController.swift */; };
 		30383B5F22E5C66000B433B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30383B5E22E5C66000B433B6 /* AppDelegate.swift */; };
@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		30079DCC22E8C2F00058AE09 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		30079DCE22E971520058AE09 /* StackCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackCellBase.swift; sourceTree = "<group>"; };
+		30079DCE22E971520058AE09 /* MPStackCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPStackCellBase.swift; sourceTree = "<group>"; };
 		30079DD022E971860058AE09 /* ButtonStackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStackCell.swift; sourceTree = "<group>"; };
 		30079DD222E973630058AE09 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		30383B5B22E5C66000B433B6 /* StackedViewPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackedViewPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +143,7 @@
 				30664FF822E8342500A5C6CE /* MPStackCell.swift */,
 				30664FFA22E8342F00A5C6CE /* NibLoader.swift */,
 				3066501722E843BD00A5C6CE /* MPKeyValueView.swift */,
-				30079DCE22E971520058AE09 /* StackCellBase.swift */,
+				30079DCE22E971520058AE09 /* MPStackCellBase.swift */,
 			);
 			path = MPStackScrollView;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 				30383B7722E5CB5200B433B6 /* UIStackView+EasyPadding.swift in Sources */,
 				30383B7922E5CDC700B433B6 /* BaseListCell.swift in Sources */,
 				30079DD322E973630058AE09 /* DetailsViewController.swift in Sources */,
-				30079DCF22E971520058AE09 /* StackCellBase.swift in Sources */,
+				30079DCF22E971520058AE09 /* MPStackCellBase.swift in Sources */,
 				3066501822E843BD00A5C6CE /* MPKeyValueView.swift in Sources */,
 				30079DCD22E8C2F00058AE09 /* ViewModel.swift in Sources */,
 				30383B8622E7088900B433B6 /* KeyValueView.swift in Sources */,

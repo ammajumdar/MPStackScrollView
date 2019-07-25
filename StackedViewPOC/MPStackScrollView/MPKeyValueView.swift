@@ -15,7 +15,7 @@ enum KeyValueType {
     case toggle
 }
 
-class MPKeyValueView: StackCellBase {
+class MPKeyValueView: MPStackCellBase {
     
     private let titleLabel: UILabel = {
         let label = UILabel()

@@ -1,5 +1,5 @@
 //
-//  StackCellBase.swift
+//  MPStackCellBase.swift
 //  StackScrollView
 //
 //  Created by Majumdar, Amit (US - Bengaluru) on 24/07/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StackCellBase: UIControl, MPStackCellType {
+class MPStackCellBase: UIControl, MPStackCellType {
   
   init() {
     super.init(frame: .zero)

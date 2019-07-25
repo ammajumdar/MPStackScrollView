@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ButtonStackCell: StackCellBase {
+final class ButtonStackCell: MPStackCellBase {
   
   var tapped: () -> Void = {}
 

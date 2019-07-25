@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class HeaderStackCell: StackCellBase {
+final class HeaderStackCell: MPStackCellBase {
   
   let label = UILabel()
   
